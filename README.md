@@ -1,14 +1,14 @@
-# itacora DevOps - Ramon Osorio 
+# Bitacora DevOps -Ramon Osorio
 
 Documentacion progresiva de mi ruta de aprendizaje hacia un perfil DevOp/SRE de nivel experto, orientado a empresas grandes 
 
-## obre este repositorio 
+## Sobre este repositorio 
 
     Este repositorio esmi bitacora tecnica personal. Cada fase y semana documenta conceptros aprendidos, ejercicios resueltos, comandos practicados y proyectos construidos. 
 
     No es un tutorial - es evidencia detodo mi progreso desde el dia cero. 
 
-## ecnologias que cubro en esta ruta 
+## Tecnologias que cubro en esta ruta 
 
     ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
     ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -17,7 +17,7 @@ Documentacion progresiva de mi ruta de aprendizaje hacia un perfil DevOp/SRE de 
     ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
     ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 
-## structura del repositorio 
+## Estructura del repositorio 
 
     bitacora- devops/ 
     |----fase 0/
@@ -28,18 +28,18 @@ Documentacion progresiva de mi ruta de aprendizaje hacia un perfil DevOp/SRE de 
     | |     |----semana2.md
     |-----READNE.md 
 
-## stado actual 
+## Estado actural 
 |       Fase       |             Tema           |   Estado   |
 |------------------|----------------------------|------------|
 |Fase 0 - semana 1 | Fundamentos de informatica | completada |
 |Fase 0 - semana 2 | Git y Github               | en curso   |
 |fase 1 -semana 3  | Linux y administracion     | pendiente  |
 
-## bjetivo 
+## Objetivo
 
     Contruir un perfil DevOps/SRE competitivo para empresas grandes en 15 meses
 
-## utor
+## Autor
 
     **Ramon Osorio**
     ramon.osorio1989@gmail.com
