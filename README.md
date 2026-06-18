@@ -32,7 +32,7 @@ Documentacion progresiva de mi ruta de aprendizaje hacia un perfil DevOp/SRE de 
 |       Fase       |             Tema           |   Estado   |
 |------------------|----------------------------|------------|
 |Fase 0 - semana 1 | Fundamentos de informatica | completada |
-|Fase 0 - semana 2 | Git y Github               | en curso   |
+|Fase 0 - semana 2 | Git y Github               | completada |
 |fase 1 -semana 3  | Linux y administracion     | pendiente  |
 
 ## Objetivo

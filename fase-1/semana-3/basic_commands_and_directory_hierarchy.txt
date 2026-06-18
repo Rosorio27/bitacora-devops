@@ -1,0 +1,164 @@
+The bourne shell: /bin/sh
+
+	En el sistemas unix el shell es uno de los componentes mas importas del sistema. El shell es un programa que ejecuta comandos, como los que los usua	    rios ingresan en una ventana de terminal. En linux se utiliza bash una version mejorada de shell de unix 
+
+Usando la shell 
+
+	Al abrir la ventana de la terminal se puede visualizar el promtp que da datos como nombre del usuario, host y permisos etc. 
+
+Comandos basicos: 
+
+	ls: enumera el contenido de un directorio. 
+
+		ls -l: formato largo con detalles del directorio 
+		ls -f: Muestra informacion sobre el tipo de archivo 
+
+	cp: forma mas simple de copiar archivos. 
+
+		cp file1 file2 
+
+	mv: move funciona mucho como cp, renombra archivso. 
+
+	touch: crea un archivo nuevo. Si el archivo objetivo ya existe modifica el timstamp del archivo.. 
+
+		touch file 
+
+	rm: comando para eliminar archivs. los elimina totalmente no existe papelera de reciclaje en linux. 
+
+	echo: imprime en pantalla los argumentos que le pases. 
+
+Navegacion de directorios: 
+
+	La jerarquia comienza con el directorio raiz / 
+
+	.. simboliza el directorio padre del directorio actual, es decir un nivel arriba de donde esta 
+
+	. simboliza el directorio actual en el que estas 
+
+	Comandos de navegacion: 
+
+		cd: cambiar de directorio actual 
+
+		mkdir: crea un nuevo directorio 
+
+		rmdir: elimia un directorio si esta vacio 
+
+			rmdir -r (recursivo) elimina diretorio y subdirectorios juntos 
+
+		gobbing: (wildcards) Para manejar patrones repetitivos en los archivos 
+
+			*: coincide con cualquier cantidad de numeros de caracteres
+
+				usos: 
+
+					at* expande comienza con at
+					
+					*at expande lo que terminan at 
+
+					*at* expande que contengan en el centor at 
+
+		
+
+	Comandos intermedios:
+
+		grep: imprime lineas de un archivo o varios archivos a la vez, flujo de entrada que coincidan con una expresion 
+			
+			grep "root" /etc/passwd
+			
+			grep -i (mayusculas y minusculas) 
+
+			grep -v (invierte la busqueda) 
+
+			greo -E (para activar expresiones regulares) 
+
+				*: coincide con cualquier numero de caracteres, incluyendo ninguno 
+				
+				.+: coincide con uno o mas caracteres 
+
+				. conincide con un caracter arbitrario 
+
+				material de apoyo sobre expresiones regulares: 
+
+				Mastering Regular Expressions", 3rd edition, by Jeffrey E. F. Friedl (O’Reilly, 2006)
+				Programming Perl, 4th edition, by Tom Christensen et al. (O’Reilly, 2012)
+				Introduction to Automata Theory, Languages, and Computation", 3rd edition, by Jeffrey Ullman and
+				John Hopcroft (Prentice Hall, 2006).
+
+		 less: utilizado para navegar en un archivo muy grande con las flechas direccionales 
+
+			dentro del documento: 
+
+				scape: azanzar 
+
+				b: retroceder
+
+				q: salir 
+
+				/: busqueda
+
+				?: busqueda hacia atras
+
+				n: para seguir buscando otra coincidencia
+
+		pwd: imprime el nombre del directorio actual. 
+
+		diff: para ver las diferencias entre dos archivso 
+		
+			diff file1 file2 
+
+		file: se utiliza para diagnosticar el formata del archivo, lo arroja en la pantalla 
+
+		find: para buscar un archivo en los directorios
+
+			find . -name file -print
+
+		locate: tambien hace busquedas en una base de datos de linux sin embargo si el archivo es nuevo no lo encontrara 
+
+		head:muestras las primeras 10 lineas de un archivo 
+		
+			head -n mas especifico en la busqueda 
+
+		tail: es el hermano de head busca en la cola lo ultimo datos del archivo 
+
+			tail -n 
+
+		sort: ordena alfabeticamente
+		
+			sort -n (ordena por numeros) 
+
+			sort -r (ordena por reversa) 
+
+
+
+Cambiar contraseña y shell: 
+
+	passwd: cambia la contraseña actual 
+
+	chsh: cambiar tu shell zsh, ksh o tcsh etc
+
+Dot files: son archivos ocultos o carpetas especiales que no se ven pero que corren en segundo plano. Las puedes ver con 
+
+	ls -la 
+
+	los mas comunes son: 
+		
+		.bashrc 
+
+		.login
+
+		.ssh 
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
