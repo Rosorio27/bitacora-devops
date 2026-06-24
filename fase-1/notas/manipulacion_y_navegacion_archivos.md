@@ -57,6 +57,8 @@
 
 ### Copia archivos y directorios 
 
+        cp archivos destino
+
         cp -a : copiar archivos y con sus atributos 
         cp -i : copiar y preguntar antes de hacerlo 
         cp -r : copiar de forma recursiva 
@@ -79,7 +81,7 @@
 ### Enlaces sueves y fuertes 
 
     ln file link : hard link. No pueden referenciar directorio ni archivos fuera de su alcanse 
-    ln -s item link : soft link 
+    ln -s ruta real nombre del enlace : soft link 
 
 
 
