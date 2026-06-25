@@ -18,6 +18,8 @@
 
     sudo useradd -m "nombre del usuario"
 
+    sudo userdel -r "nombre del usuario" : elimina la carpeta home 
+
     usermod 
 
 ### Crear grupos 
@@ -27,5 +29,9 @@
     sudo usermod -aG "nombre de grupo" "nombre de usuario" : agregar nuevo grupo y conservar los que ya tenia 
 
     sudo password "nombre de usuario": asignar nueva contraseña 
+
+    usermod -l : cambia el nombre del usuario 
+
+    usemod -s "/ruta shell" "nombre del usuario"
 
     
